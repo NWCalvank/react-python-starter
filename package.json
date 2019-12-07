@@ -1,7 +1,7 @@
 {
   "name": "react-python-starter",
   "version": "1.0.0",
-  "description": "Basic react+python app to be used as a starting point",
+  "description": "Boilerplate minimal React app with Python API",
   "main": "index.js",
   "dependencies": {
     "node": "^13.1.0",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FreshworksStudio/react-python-starter.git"
+    "url": "git+https://github.com/NWCalvank/react-python-starter.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/FreshworksStudio/react-python-starter/issues"
+    "url": "https://github.com/NWCalvank/react-python-starter/issues"
   }
 }

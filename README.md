@@ -1,9 +1,7 @@
 # Minimal React + Python Boilerplate
 
-![](https://github.com/FreshworksStudio/react-python-starter/workflows/Run%20Unit%20Tests/badge.svg)
-![](https://github.com/FreshworksStudio/react-python-starter/workflows/Run%20e2e%20tests/badge.svg)
-
-Associated [Jira Epic](https://freshworks.atlassian.net/browse/WEB-92)
+![](https://github.com/NWCalvank/react-python-starter/workflows/Run%20Unit%20tests/badge.svg)
+![](https://github.com/NWCalvank/react-python-starter/workflows/Run%20e2e%20tests/badge.svg)
 
 ## Installation and Usage
 
@@ -40,8 +38,8 @@ out-of-the-box with the following steps.
 
 1. Update the `url` in the `.gitmodules` file as shown in the git diff below
    ```
-   - url = https://github.com/FreshworksStudio/minimal-react-boilerplate
-   + url = https://github.com/FreshworksStudio/some-other-frontend
+   - url = https://github.com/NWCalvank/minimal-react-boilerplate
+   + url = https://github.com/NWCalvank/some-other-frontend
    ```
 2. Setup your new app for development
    ```
@@ -101,7 +99,7 @@ changes, and open a PR for review against the `master` branch.
 
 If you would like to make frontend changes, you should start by making your
 changes to the
-[minimal-react-boilerplate](https://github.com/FreshworksStudio/minimal-react-boilerplate).
+[minimal-react-boilerplate](https://github.com/NWCalvank/minimal-react-boilerplate).
 Follow the existing workflow on that repo while making your updates.
 
 Once your changes have been merged to the `master` branch, you can return to
