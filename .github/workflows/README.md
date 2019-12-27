@@ -1,7 +1,6 @@
 # Github workflows
 
 This application uses [Github Actions](https://github.com/features/actions) to run CI/CD and other workflows.
-ITS CURRENTLY A WIP.
 
 ## Workflows
 

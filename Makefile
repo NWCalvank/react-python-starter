@@ -42,7 +42,6 @@ update-submodules:
 
 reinitialize-git:
 	@rm .gitmodules
-	@rm -rf .github
 	@rm -rf .git
 	@rm -rf ./client/.git
 	@git init

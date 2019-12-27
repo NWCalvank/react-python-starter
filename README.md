@@ -6,15 +6,15 @@
 ## Installation and Usage
 
 This file describes how to run the project and develop against it.
-NOTE: The instructions below haven't been tested on windows. If you are using windows
-it is recommended to use WSL (Windows Subsytem for Linux).
+
+**NOTE:** The instructions below haven't been tested on Windows. If you are using Windows, it is recommended to use WSL
+(Windows Subsytem for Linux).
 
 ### Starting a New Project
 
-This repo uses [git
-submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). If you will
-be using this repo as a starting-point for a new project, it is recommended
-that you use the following command to setup the repo once you have cloned it.
+This repo uses [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). If you will be using this repo as
+a starting-point for a new project, it is recommended that you use the following command to setup the repo once you have
+cloned it.
 
 This will:
 - Install the client submodule
@@ -26,31 +26,32 @@ This will:
 $ make setup
 ```
 
-**NOTE:** Do not run this command if you would like to contribute to the
-boilerplate. See the Contributing section for more details.
+**NOTE:** Do not run this command if you would like to contribute to the boilerplate. See the Contributing section for
+more details.
 
 ### Using a Different Frontend
 
-The submodule pattern allows you to easily swap out the Minimal React repo for
-a different frontend repo of your choice. So long as it is written to work with
-the `docker-compose` file(s) in this repo, your new frontend will work
+The submodule pattern allows you to easily swap out the Minimal React repo for a different frontend repo of your choice.
+So long as it is written to work with the `docker-compose` file(s) in this repo, your new frontend will work
 out-of-the-box with the following steps.
 
 1. Update the `url` in the `.gitmodules` file as shown in the git diff below
    ```
    - url = https://github.com/NWCalvank/minimal-react-boilerplate
-   + url = https://github.com/NWCalvank/some-other-frontend
+   + url = https://github.com/SomeAccount/some-other-frontend
    ```
 2. Setup your new app for development
    ```
    $ make setup
    ```
 
-## Requirements
+## Getting Started
+
+### Requirements
 
 - Docker
 
-## Getting Started
+### Basic Setup
 
 The project uses Make commands listed in the [Makefile](Makefile) for ease of development.
 
@@ -72,7 +73,7 @@ Please refer to [Makefile](Makefile) for a list of all commands. Some of the mos
 
 `make client-test` : Runs the client unit tests.
 
-NOTE: If you're having any unexpected issues, it's best to run `make rebuild` to cleanup and rebuild containers from scratch.
+**NOTE:** If you're having any unexpected issues, it's best to run `make rebuild` to cleanup and rebuild containers from scratch.
 
 ## Container Information
 
@@ -86,25 +87,21 @@ NOTE: If you're having any unexpected issues, it's best to run `make rebuild` to
 
 ## Contributing
 
-If you intended to make changes to this boilerplate, you will want to use one
-of the following workflows.
+If you intended to make changes to this boilerplate, you will want to use one of the following workflows.
 
 ### Backend/Deployment Changes
 
-If you would like to update any of the Python and/or deployment code, you can
-treat this repo like any other. Simply clone the repo, make a branch for your
-changes, and open a PR for review against the `master` branch.
+If you would like to update any of the Python and/or deployment code, you can treat this repo like any other. Simply
+clone the repo, make a branch for your changes, and open a PR for review against the `master` branch.
 
 ### Frontend Changes
 
-If you would like to make frontend changes, you should start by making your
-changes to the
-[minimal-react-boilerplate](https://github.com/NWCalvank/minimal-react-boilerplate).
-Follow the existing workflow on that repo while making your updates.
+If you would like to make frontend changes, you should start by making your changes to the
+[minimal-react-boilerplate](https://github.com/NWCalvank/minimal-react-boilerplate).  Follow the existing workflow on
+that repo while making your updates.
 
-Once your changes have been merged to the `master` branch, you can return to
-this repo to update the submodule commit hash to match the one associated with
-the new latest HEAD on the `minimal-react-boilerplate` `master` branch.
+Once your changes have been merged to the `master` branch, you can return to this repo to update the submodule commit
+hash to match the one associated with the new latest HEAD on the `minimal-react-boilerplate` `master` branch.
 
 This process has been automated by the following command:
 ```
