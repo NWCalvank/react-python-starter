@@ -1,7 +1,7 @@
 # Minimal React + Python Boilerplate
 
-![](https://github.com/NWCalvank/react-python-starter/workflows/Run%20Unit%20tests/badge.svg)
-![](https://github.com/NWCalvank/react-python-starter/workflows/Run%20e2e%20tests/badge.svg)
+![](https://github.com/NWCalvank/react-python-starter/workflows/Unit%20Tests/badge.svg)
+![](https://github.com/NWCalvank/react-python-starter/workflows/Functional%20Tests/badge.svg)
 
 ## Installation and Usage
 
